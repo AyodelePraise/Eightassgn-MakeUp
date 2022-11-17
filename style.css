@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 100vh;
+}
+header{
+    height: 10%;
+}
+main{
+    height: 50%;
+}
+footer{
+    height: 40%;
+}
+.menu{
+    background-color: green;
+    cursor: pointer;
+}
+.menu ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    height: 8vh;
+}
+.menu ul li {
+    text-decoration: none;
+    color: white;
+}
+.menu ul p{
+    background-color: white;
+    height: 5vh;
+    width: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: green;
+}
+main{
+    margin-top: -3vh;
+    background-image: url(/bg.png);
+    /* background-size: cover; */
+    background-position: center;
+}
+.name p{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4vw;
+    font-family: cursive;
+}
+.profession p{
+    color: rgb(124, 243, 124);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5vw;
+    font-family: cursive;
+}
+footer{
+    background-color: rgb(44, 43, 43);
+    
+}
+.top-footer .build{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 2.5vw;
+}
+.contact-icons ul{
+    margin-top: 6%;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 2.5vw;
+}
+.top-footer .contact-us{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 1vw;
+}
+.bottom-footer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    font-size: 2vw;
+} 
+ .fa-facebook {  
+    background: #3B5998;  
+    color: white;  
+  }  
+  .fa-twitter {  
+    background: #55ACEE;  
+    color: white;  
+  }  
